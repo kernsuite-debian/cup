@@ -1,0 +1,5 @@
+debian/cub-dev.debhelper.log
+debian/cub-dev.substvars
+debian/cub-dev/
+debian/debhelper-build-stamp
+debian/files

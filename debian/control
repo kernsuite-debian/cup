@@ -1,0 +1,15 @@
+Source: cub
+Section: devel
+Priority: optional
+Maintainer: Gijs Molenaar (launchpad ppa build key) <gijs@pythonic.nl>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: http://nvlabs.github.io/cub
+Vcs-Git: git://github.com/kernsuite-docker/cub.git
+Vcs-Browser: https://github.com/kernsuite-docker/cub
+
+Package: cub-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description:  flexible library of cooperative threadblock primitives and other
+ utilities for CUDA kernel programming
